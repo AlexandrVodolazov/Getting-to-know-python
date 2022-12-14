@@ -1,0 +1,16 @@
+# Программа, которая по заданному номеру четверти, показывает диапазон возможных координат точек в этой четверти (x и y).
+
+
+num_coord = int(input("Enter coordinate №: "))
+
+if num_coord == 1:
+    print("range: x = 0 to Ꝏ; y = 0 to Ꝏ")
+
+if num_coord == 2:
+    print("range: x = 0 to -Ꝏ; y = 0 to Ꝏ")
+
+if num_coord == 3:
+    print("range: x = 0 to -Ꝏ; y = 0 to -Ꝏ")
+
+if num_coord == 4:
+    print("range: x = 0 to Ꝏ; y = 0 to -Ꝏ")
